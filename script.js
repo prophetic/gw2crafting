@@ -13,5 +13,5 @@ function myFunction(response) {
     var obj = JSON.parse(response);
     var out = obj.name;
 
-    document.getElementById("body").innerHTML = out;
+    document.getElementById("body").innerHTML = "Hello World";
 }
