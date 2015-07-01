@@ -6,8 +6,8 @@ xmlhttp.onreadystatechange = function() {
         myFunction(xmlhttp.responseText);
     }
 }
-xmlhttp.open("GET", url, true);
-xmlhttp.send();
+xmlhttp.open("GET", url, false);
+xmlhttp.send(null);
 
 function myFunction(response) {
     var obj = JSON.parse(response);
