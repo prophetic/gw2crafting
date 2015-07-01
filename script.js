@@ -1,6 +1,6 @@
 var xmlhttp = new XMLHttpRequest();
 var url = "https://api.guildwars2.com/v2/items/28445";
-
+alert("Hello! I am an alert box!!");
 xmlhttp.onreadystatechange = function() {
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
         myFunction(xmlhttp.responseText);
