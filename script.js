@@ -9,6 +9,10 @@ xmlhttp.onreadystatechange = function() {
 xmlhttp.open("GET", url, false);
 xmlhttp.send(null);
 
+var out = "<h1>Hello World</h1>";
+
+    document.getElementById("body").innerHTML = out;
+
 function myFunction(response) {
     var obj = JSON.parse(response);
     var out = "<h1>Hello World</h1>";
