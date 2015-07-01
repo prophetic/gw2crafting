@@ -11,7 +11,7 @@ xmlhttp.send(null);
 
 function myFunction(response) {
     var obj = JSON.parse(response);
-    var out = obj.name;
+    var out = "<h1>Hello World</h1>";
 
-    document.getElementById("body").innerHTML = "Hello World";
+    document.getElementById("body").innerHTML = out;
 }
