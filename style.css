@@ -11,7 +11,7 @@ body {
     padding-left:  15px;
     padding-right: 15px;
     background-color: #ffffff;
-    border-radius: 0 0 5px 5px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 #box1 {
@@ -19,13 +19,19 @@ body {
     padding-left:  15px;
     padding-right: 15px;
     background-color: #ffffff;
-    border-radius: 0 0 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 15px;
 }
-
 
 h1 {
     font-family: Georgia, serif;
     border-bottom: 3px solid #cc9900;
     color: #996600;
     font-size: 30px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    color: #696969;
+    font-size: 20px;
 }
